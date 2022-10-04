@@ -152,11 +152,11 @@ const App = () => {
 
                 <div className="bio">
                     It's Majeed and this is my first web3 app, Connect your wallet
-                     and suggest a song for me to play and if i like it i'll send you some ETHs!
+                     and Wave at me and you would have a chance to win some ETHs!
                 </div>
 
                 <button className="waveButton" onClick={() => wave(usersmessage)}>
-                    Suggest!
+                    Wave
                 </button>
 
                 {!currentAccount && (
@@ -165,7 +165,7 @@ const App = () => {
                     </button>
                 )}
                 {(<textarea name="message"
-                placeholder="Enter Songs name"
+                placeholder="Say Somthing!"
                 type="text"
                 id="message"
                 value={usersmessage}
@@ -177,7 +177,7 @@ const App = () => {
                         <div key={index} style={{ backgroundColor: "OldLace", marginTop: "16px", padding: "8px" }}>
                             <div>Address: {wave.address}</div>
                             <div>Time: {wave.timestamp.toString()}</div>
-                            <div>Song: {wave.message}</div>
+                            <div>Message: {wave.message}</div>
                         </div>
                     );
                 })}
