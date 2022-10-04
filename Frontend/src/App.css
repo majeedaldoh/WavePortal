@@ -1,0 +1,43 @@
+body{
+  background-image:url(C:\Users\عبدالمجيد\Downloads\background.jpg);
+}
+.mainContainer{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin: 100px;
+}
+.dataContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}  
+.header{
+  font-size: 32px;
+  color:aliceblue;
+  text-align: center;
+  font-weight: 600;
+}
+.bio{
+  text-align: center;
+  color:aliceblue;
+  margin-top:16px;
+  margin-bottom:  16px;
+}
+.Wavebutton{
+  cursor: pointer;
+  padding: 8;
+  border: 0; 
+  border-radius: 5px; 
+  font-size: 24px;
+  background-color:rgb(131, 67, 192);
+}
+.ConnectWallet{
+  cursor: pointer;
+  padding: 8;
+  border: 0; 
+  border-radius: 5px; 
+  font-size: 24px;
+  background-color:rgb(131, 67, 192);
+}
